@@ -6,6 +6,7 @@ public class TiposVariaveis {
     float pontoFlutuante = 3.14F; // tambem tem 4 byte de memoria, sem F no final ele acha que e double
     double espacoExtra = 2323; // esse malandro tem 8, faz as conta
     boolean verdadeiroFalso = false; // binario, false ou true
+    final //isso torna uma variavel constante, nao pode ser alterada, idealmente o nome da variavel tem que estar em caixa alta.
     char naosei3 = 323;
     String texto = "texto mesmo";
 }
