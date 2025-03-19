@@ -16,5 +16,15 @@ public class smartTv{
     public void volumeDown(){
         volume--;
     }
+    public void canalUp(){
+        canal++;
+    }
+    public void CanalDown(){
+        canal--;
+    }
+    public void canal(int x){
+        canal = x;
+    }
+
 
 }

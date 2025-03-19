@@ -15,6 +15,13 @@ public class usuario {
         smarTv.volumeUp();
         smarTv.volumeUp();
         System.out.println("Volume: " + smarTv.volume);
+        smarTv.canalUp();
+        smarTv.canalUp();
+        System.out.println("canal: " + smarTv.canal);
+        smarTv.canal(4);
+        System.out.println("canal: " + smarTv.canal);
+        smarTv.canal(20);
+        System.out.println("canal: " + smarTv.canal);
 
     }
 }
